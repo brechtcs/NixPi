@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  imports = [ ./raspberry.nix ];
+  imports = [ ./raspberry.nix  ./samba.nix ];
 
   # System-wide software
   environment.systemPackages = [ pkgs.gitMinimal ];
