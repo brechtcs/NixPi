@@ -15,5 +15,10 @@
     userServices = true;
   };
 
+  # Configure firewall
+  networking.firewall.enable = true;
+  networking.firewall.allowPing = true;
+
+  # Set keyboard
   i18n.consoleKeyMap = "be-latin1";
 }

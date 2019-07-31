@@ -1,4 +1,5 @@
 { config, pkgs, lib, ... }:
+
 {
   # NixOS wants to enable GRUB by default
   boot.loader.grub.enable = false;
